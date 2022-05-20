@@ -10,7 +10,7 @@ function Panel({ updateAt, onChange, country }){
         <MenuItem key={`country-${index}`} value={country.value}>
             <ItemStyled>
                 <div>{ country.label }</div>
-                <img src={country.flag} alt={`Pais-${country.label}`} />
+                <img src={country.flag} alt={`Pais-${country.label}`}/>
             </ItemStyled>
         </MenuItem>
     )
